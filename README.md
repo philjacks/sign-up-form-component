@@ -1,2 +1,2 @@
 # sign-up-form-component
-Created with CodeSandbox
+Challenge from frontendmentor.io
