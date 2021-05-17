@@ -15,17 +15,10 @@ const passwordError = document.querySelector(".error4");
 form.addEventListener("submit", (e) => {
   
   validateFirstName(firstName)
-  e.preventDefault()
-
   validateLastName(lastName)
-  e.preventDefault()
-
   validateEmail(email)
-  e.preventDefault()
-
   validatePassword(password)
   e.preventDefault()
-  
 });
 
 // Validate First Name
@@ -33,6 +26,7 @@ const validateFirstName = (firstName) => {
   if (firstName.value === "") {
     firstName.classList.add("invalid");
     firstNameError.innerHTML = `First Name cannot be empty`;
+    
   } else {
     firstName.classList.remove("invalid");
     firstNameError.remove();
@@ -44,6 +38,7 @@ const validateLastName = (lastName) => {
   if (lastName.value === "") {
     lastName.classList.add("invalid");
     lastNameError.innerHTML = `Last Name cannot be empty`;
+    
   } else {
     lastName.classList.remove("invalid");
     lastNameError.remove();
@@ -73,6 +68,7 @@ const validatePassword = (password) => {
   if (password.value === "") {
     password.classList.add("invalid");
     passwordError.innerHTML = `Password cannot be empty`;
+    
   } else {
     password.classList.remove("invalid");
     passwordError.remove();
