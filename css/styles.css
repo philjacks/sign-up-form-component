@@ -107,7 +107,7 @@ button:hover {
 
 .error-text {
   font-style: italic;
-  margin-right: 1rem;
+  margin-right: 1.3rem;
   align-self: flex-end;
   color: hsl(0, 100%, 60%);
   font-size: 0.8rem;
@@ -176,7 +176,7 @@ button:hover {
     width: 90%;
   }
   .error-text {
-    margin-right: 2rem;
+    margin-right: 2.5rem;
   }
   .invalid {
     background-position: right 1.5rem bottom 1rem;

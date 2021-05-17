@@ -19,6 +19,7 @@ form.addEventListener("submit", (e) => {
   validateEmail(email)
   validatePassword(password)
   e.preventDefault()
+
 });
 
 // Validate First Name
