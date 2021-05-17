@@ -15,9 +15,16 @@ const passwordError = document.querySelector(".error4");
 form.addEventListener("submit", (e) => {
   
   validateFirstName(firstName)
+  e.preventDefault()
+
   validateLastName(lastName)
+  e.preventDefault()
+
   validateEmail(email)
+  e.preventDefault()
+
   validatePassword(password)
+  e.preventDefault()
   
 });
 
