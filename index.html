@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="img/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Intro component with sign up form</title>
+  </head>
+  <body>
+    <div class="text">
+      <h1>
+        Learn to code by<br />
+        watching others
+      </h1>
+      <p>
+        See how experienced developers solve problems in real-time. Watching
+        scripted tutorials is great, but understanding how developers think is
+        invaluable.
+      </p>
+    </div>
+    <div class="trial-form">
+      <div class="accent">
+        <p><strong>Try it free</strong> 7 days then $20/mo. thereafter</p>
+      </div>
+
+      <form action="">
+        <input
+          id="first-name"
+          type="text"
+          title="undefined"
+          class="input"
+          placeholder="First Name"
+        />
+        <div class="error-text"><p class="error1"></p></div>
+        <br />
+        <input
+          id="last-name"
+          type="text"
+          title="undefined"
+          class="input"
+          placeholder="Last Name"
+        />
+        <div class="error-text"><p class="error2"></p></div>
+        <br />
+        <input
+          id="email"
+          type="email"
+          title="undefined"
+          class="input"
+          placeholder="Email Address"
+        />
+        <div class="error-text"><p class="error3"></p></div>
+        <br />
+        <input
+          id="password"
+          type="password"
+          title="undefined"
+          class="input"
+          placeholder="Password"
+        />
+        <input type="hidden" name="_next" value="#">
+        <div class="error-text"><p class="error4"></p></div>
+        <br />
+        <button type="submit" title="undefined">Claim your free trial</button>
+        <p class="terms">
+          By clicking the button, you are agreeing to our
+          <a href="#"><strong>Terms and Services</strong></a>
+        </p>
+      </form>
+    </div>
+    <script src="/js/script.js"></script>
+  </body>
+</html>
